@@ -45,7 +45,7 @@
     _centerView.layer.cornerRadius = 30;
     _centerView.clipsToBounds = YES;
     _centerView.center = CGPointMake(self.bounds.size.width / 2, self.bounds.size.height / 2);
-    _centerView.backgroundColor = [UIColor cyanColor];
+    _centerView.backgroundColor = [UIColor purpleColor];
     [self addSubview:_centerView];
 
 }

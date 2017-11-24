@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     RockerControlView *view = [[RockerControlView alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 500) / 2, ([UIScreen mainScreen].bounds.size.height - 500) / 2, 500, 500)];
     view.delegate = self;
+    
     [self.view addSubview:view];
 }
 
